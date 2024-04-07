@@ -45,7 +45,7 @@ func main() {
 	fmt.Println("Dockerfile created successfully.")
 
 	fmt.Println("Building Docker image...")
-	cmd := exec.Command("docker", "build", "-t", "goDocker_image", ".")
+	cmd := exec.Command("docker", "build", "-t", "godocker_image", ".")
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stderr
 	err = cmd.Run()
