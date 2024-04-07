@@ -8,5 +8,5 @@ go install goDocker
 ```
 or
 ```bash
-go build goDocker
+go build
 ```
